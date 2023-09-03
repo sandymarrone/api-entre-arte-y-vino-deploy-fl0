@@ -1,4 +1,4 @@
-const z = require('zod')
+import z from 'zod'
 
 const eventSchema = z.object({
   name: z.string({
@@ -15,10 +15,6 @@ const eventSchema = z.object({
   })
 })
 
-function validateEvent(object) {
+export function validateEvent(object) {
   return eventSchema.safeParse(object)
-}
-
-module.exports = {
-  validateEvent
 }

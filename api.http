@@ -1,8 +1,8 @@
-GET http://localhost:1234/event
+GET http://localhost:1234/events
 
 ###
 
-POST http://localhost:1234/event
+POST http://localhost:1234/events
 Content-Type: application/json
 
 {
