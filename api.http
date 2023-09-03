@@ -1,0 +1,12 @@
+GET http://localhost:1234/event
+
+###
+
+POST http://localhost:1234/event
+Content-Type: application/json
+
+{
+  "name": "Evento de Navidad",
+  "date": "02-09-2023",
+  "place": "Restaurante Diciembre Navidad"
+}
